@@ -28,6 +28,7 @@ namespace Countries.Service
                     ConsoleKeyInfo keyInfo = Console.ReadKey();
                     if (keyInfo.Key == ConsoleKey.Q) break;
                 }
+
                 host.Close();
             }
         }
