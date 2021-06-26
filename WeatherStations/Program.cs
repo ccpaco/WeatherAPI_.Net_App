@@ -16,7 +16,7 @@ namespace WeatherStations
         // Web Services Docs: https://www.ncdc.noaa.gov/cdo-web/webservices/v2#stations
         private const string BaseUrl = "https://www.ncdc.noaa.gov/cdo-web/api/v2/";
         // Tokens are unique. Request on NOAA website, receive via email
-        private const string Token = "SFYpweyzLQVZvRKTSaGiahsdfraKivpv";
+        private const string Token = "yourStringKeyHere";
         private static bool AreRequestsCompleted = false;
         static void Main(string[] args)
         {
